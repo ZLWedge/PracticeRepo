@@ -10,7 +10,7 @@ int main(){
 	
 			c=a+b;
 			if (b % 2 == 0){
-	            total += c
+	            total += b;
 			a=b;
 			b=c;
 			}

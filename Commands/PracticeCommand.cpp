@@ -8,16 +8,16 @@ virtual void Initialise(){
 }
 
 virtual void Execute(){
-subsystemx -> moveMotor (1.0);
+	subsystemx -> moveMotor (1.0);
 }
 
 virtual bool IsFinished(){
-return false;
+	return false;
 }
 
 virtual void End(){
 }
 
 virtual void Interrupted(){
-subsystemx -> moveMotor (0.0);
+	subsystemx -> moveMotor (0.0);
 }
